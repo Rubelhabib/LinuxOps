@@ -11,7 +11,7 @@ This setup configures a static IP address and DNS servers on an Ubuntu server us
    ```
 </br>
    
-2. Configuration Example:
+2. **Configuration Example:**
     Rplace the file contents with the following configuration:
   ```
     network:
@@ -31,21 +31,21 @@ This setup configures a static IP address and DNS servers on an Ubuntu server us
   ```
 </br>
 
-3.Apply Configuration:
+3. **Apply Configuration:**
    Apply the netplan configuration:
   ```
     sudo netplan apply
   ```
 </br>
 
-4.Verify Network Settings:
+4. **Verify Network Settings:**
     To verify the new IP and network settings, use:
     
 ```
 ip a
 ```
 
-- Description:
+- **Description:**
   - Static IP: Sets the IP address to `192.168.10.100/24`.
 
   - Default Gateway: Sets the gateway to `192.168.10.1`.
