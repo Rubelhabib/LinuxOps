@@ -12,6 +12,9 @@ This setup configures a static IP address and DNS servers on an Ubuntu server us
 </br>
    
 2. **Configuration Example:**
+
+![Configuration](images/IPSetup.png)
+
     Rplace the file contents with the following configuration:
   ```
     network:
@@ -32,6 +35,9 @@ This setup configures a static IP address and DNS servers on an Ubuntu server us
 </br>
 
 3. **Apply Configuration:**
+
+![Static ip](images/StaticIP.png)
+
    Apply the netplan configuration:
   ```
     sudo netplan apply
@@ -53,7 +59,11 @@ ip a
   - DNS Servers: Uses Google's DNS servers `(8.8.8.8 and 8.8.4.4)`.
 
   - No DHCP: Disables DHCP and assigns a static IP.
+ 
+    
+- **Diagram**
 
+  ![Diagram](images/StatiipDIagram.png)
 
 
 
