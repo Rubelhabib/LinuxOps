@@ -14,8 +14,8 @@ This setup configures a static IP address and DNS servers on an Ubuntu server us
 2. **Configuration Example:**
 
 ![Configuration](images/IPSetup.png)
-
-    Rplace the file contents with the following configuration:
+ 
+   Rplace the file contents with the following configuration:
   ```
     network:
   version: 2
