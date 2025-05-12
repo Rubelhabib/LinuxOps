@@ -21,13 +21,13 @@ To install Ubuntu Server, download it from the official website:
    📺 [Watch on YouTube](https://www.youtube.com/watch?v=zs2zdVPwZ7E)
 
 **Useful Commands**
-### Restart Your Server
+
+#### Restart Your Server
 
 - To restart your server, use the following command:
   
 ```
 sudo init 6
-
 ```
 to go to ur home directory cd ~
 
