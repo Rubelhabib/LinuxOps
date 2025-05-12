@@ -29,11 +29,11 @@ To install Ubuntu Server, download it from the official website:
 ```
 sudo init 6
 ```
-to go to ur home directory cd ~
+ - to go to ur home directory cd ~
 
-***Copy a File***
+**Copy a File**
 
-To copy a file from one location to another, use:
+ - To copy a file from one location to another, use:
 
 ```
 sudo cp /etc/<filename> /etc/<destination>
@@ -45,4 +45,4 @@ Replace `<filename>` with the name of the file you want to copy and `<destinatio
 ```
 ls -la <filename>
 ```
-Replace `<filename>` with the name of the file you want to inspect.   
+ - Replace `<filename>` with the name of the file you want to inspect.   
