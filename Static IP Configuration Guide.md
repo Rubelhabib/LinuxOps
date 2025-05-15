@@ -6,9 +6,9 @@ This setup configures a static IP address and DNS servers on an Ubuntu server us
 
 1. **Edit Netplan Configuration:**
    Open the netplan configuration file:
-   ```bash
-   sudo vim /etc/netplan/50-cloud-init.yaml
-   ```
+```
+sudo vim /etc/netplan/50-cloud-init.yaml
+```
 </br>
    
 2. **Configuration Example:**
@@ -39,9 +39,9 @@ This setup configures a static IP address and DNS servers on an Ubuntu server us
 ![Static ip](images/StaticIP.png)
 
    Apply the netplan configuration:
-  ```
-    sudo netplan apply
-  ```
+```
+sudo netplan apply
+```
 </br>
 
 4. **Verify Network Settings:**
