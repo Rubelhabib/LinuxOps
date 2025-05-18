@@ -7,6 +7,9 @@ This guide explains how to securely log in to a remote server using SSH key-base
 
 ## 📚 Table of Contents
 
+# SSH Key-Based Authentication Guide
+
+## Table of Contents
 - [What is SSH Key-Based Authentication?](#what-is-ssh-key-based-authentication)
 - [Benefits](#benefits)
 - [Best Practices](#best-practices)
@@ -20,7 +23,6 @@ This guide explains how to securely log in to a remote server using SSH key-base
 - [Architecture Diagram](#architecture-diagram)
 - [Troubleshooting](#troubleshooting)
 - [Conclusion](#conclusion)
-
 
 ---
 
