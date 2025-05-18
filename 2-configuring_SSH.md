@@ -65,6 +65,7 @@ By default, SSH listens on port 22. Changing this helps prevent automated attack
 ```bash
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config_backup
 ```
+![Backup file](ssh-configuration-images/ssh.backupfile1.png)
 
 ### Edit Config File
 
@@ -75,7 +76,7 @@ sudo vim /etc/ssh/sshd_config
 ### Change or add the following lines:
 
 ```conf
-Port 2345
+Port 8080
 PermitRootLogin no
 PermitEmptyPasswords no
 Protocol 2
@@ -88,6 +89,11 @@ AllowUsers your_username
 ```bash
 sudo systemctl restart ssh
 ```
+![Port change](ssh-configuration-images/port-change-value.png)
+
+ - Port Change Value
+
+![Port Change](ssh-configuration-images/port-change2.png)
 
 ---
 
@@ -96,7 +102,7 @@ sudo systemctl restart ssh
 If UFW is active, allow the new port through it:
 
 ```bash
-sudo ufw allow from any to any port 2345 proto tcp
+sudo ufw allow from any to any port 8080 proto tcp
 ```
 
 Check UFW status with:
@@ -120,14 +126,15 @@ Connect using SSH:
 ```bash
 ssh your_username@remote_ip_address
 # Or with custom port
-ssh your_username@remote_ip_address -p 2345
+ssh your_username@remote_ip_address -p 8080
 ```
 
 Example:
 
 ```bash
-ssh rubel@192.168.10.93 -p 2345
+ssh rubel@192.168.10.93 -p 8080
 ```
+![Login](ssh-configuration-images/Newlogin.png)
 
 ---
 
