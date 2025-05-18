@@ -24,13 +24,13 @@ This guide explains how to securely log in to a remote server using SSH key-base
 
 ---
 
-## 🔑 What is SSH Key-Based Authentication?
+## What is SSH Key-Based Authentication?
 
 Instead of typing a password each time you log in to a server, SSH allows you to authenticate using a **key pair** — a public key stored on the server and a private key on your machine.
 
 ---
 
-## ✅ Benefits
+## Benefits
 
 - **More Secure** – Eliminates brute-force password attacks.
 - **Faster Login** – No password prompt.
@@ -39,7 +39,7 @@ Instead of typing a password each time you log in to a server, SSH allows you to
 
 ---
 
-## 🧠 Best Practices
+## Best Practices
 
 - Keep your **private key secret**.
 - Use a **passphrase** for your key.
@@ -49,13 +49,13 @@ Instead of typing a password each time you log in to a server, SSH allows you to
 
 ---
 
-## 🚀 Step-by-Step Guide
+## Step-by-Step Guide
 
-### 1️⃣ Generate SSH Key Pair
+### 1. Generate SSH Key Pair
 
 ```bash
 ssh-keygen -t rsa -b 2048
-```
+
 
 - Press Enter to accept the default file location: `~/.ssh/id_rsa`
 - Choose a secure **passphrase** (optional but recommended)
