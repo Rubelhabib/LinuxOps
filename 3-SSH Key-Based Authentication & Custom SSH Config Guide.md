@@ -70,6 +70,7 @@ ls -l
 cat id_rsa        # Private key (never share this!)
 cat id_rsa.pub    # Public key (can be shared)
 ```
+![keygen](SSH-Key-Based-Authentication-images/Generate-SSH-Key1.png)
 
 ---
 
@@ -83,6 +84,8 @@ ssh-copy-id habib@192.168.10.154
 
 This will append your public key to the remote file: `~/.ssh/authorized_keys`
 
+![Copy key](SSH-Key-Based-Authentication-images/copyid2.png)
+
 ---
 
 ### 4️⃣ Verify Key on Remote Server
@@ -94,6 +97,8 @@ cat ~/.ssh/authorized_keys
 ```
 
 You should see your public key there. This confirms the key was copied successfully.
+
+![Remote](SSH-Key-Based-Authentication-images/Verify-Key-on-Remote-Server.png)
 
 ---
 
@@ -115,6 +120,7 @@ Host web-server
   Port 8080
   IdentityFile ~/.ssh/id_rsa
 ```
+![Configuration](SSH-Key-Based-Authentication-images/configuration.png)
 
 This lets you connect using a simple alias instead of full IP and port.
 
@@ -127,6 +133,8 @@ ssh web-server
 ```
 
 This will connect as user `rubel` to IP `192.168.10.93` using port `8080`, without needing to type the full command.
+
+![connect](SSH-Key-Based-Authentication-images/Connect-Easily.png)
 
 ---
 
