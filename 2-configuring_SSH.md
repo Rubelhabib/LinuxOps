@@ -34,7 +34,7 @@ SSH relies on public-key cryptography and operates in three main layers:
 
 ---
 
-## 🛠️ Step 1: Install SSH Server
+**🛠️ Step 1: Install SSH Server**
 
 Run the following commands to update the system and install the OpenSSH server.
 
@@ -45,7 +45,7 @@ sudo apt install openssh-server
 ---
 
 ---
-▶️ Step 2: Start and Enable SSH Service
+**▶️ Step 2: Start and Enable SSH Service**
 
  - Check the status and ensure SSH starts on boot:
 ```
@@ -55,7 +55,7 @@ sudo systemctl enable --now ssh
 ---
 
 ---
-⚙️ Step 3: Configure Custom SSH Port
+**⚙️ Step 3: Configure Custom SSH Port**
   - By default, SSH listens on port 22. Changing this helps prevent automated attacks..
  
 - Backup Configuration
@@ -84,7 +84,7 @@ sudo systemctl restart ssh
 ---
 
 ---
-🧱 Step 4: Allow SSH through the Firewall
+**🧱 Step 4: Allow SSH through the Firewall**
  - If UFW is active, allow the new port through it:
 
 ```
@@ -97,7 +97,7 @@ sudo ufw status
 ---
 
 ---
-🌐 Step 5: Connect from a Remote System
+**🌐 Step 5: Connect from a Remote System**
  - Make sure openssh-client is installed on the client machine:
 ```
 sudo apt install openssh-client
@@ -116,7 +116,7 @@ ssh rubel@192.168.10.93 -p 2345
 ---
 
 ---
-🔄 Step 6: Manage SSH Service
+**🔄 Step 6: Manage SSH Service**
  - Use systemctl to manage SSH:
 
 ```
@@ -128,7 +128,6 @@ sudo systemctl disable ssh    # Disable on boot
 ```
 ---
 
----
 🔐 SSH Hardening Tips
 To improve SSH security:
 
@@ -144,76 +143,9 @@ To improve SSH security:
 
 ---
 
----
 ✅ Now your Ubuntu system is ready for secure remote access via SSH!
  - For any troubleshooting, check the logs:
 ```
 journalctl -xe | grep ssh
 ```
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
