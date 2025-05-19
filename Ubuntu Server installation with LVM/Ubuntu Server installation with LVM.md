@@ -32,3 +32,32 @@ This document provides a brief guide on how to install Ubuntu Server with Logica
 sudo vgdisplay     # View Volume Groups
 sudo lvdisplay     # View Logical Volumes
 df -h              # View disk usage
+```
+
+---
+**Step - 1**
+
+![Image 1](Images/Coustome-sotorage1.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
