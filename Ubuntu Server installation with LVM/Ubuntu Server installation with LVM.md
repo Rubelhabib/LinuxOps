@@ -57,7 +57,7 @@ df -h              # View disk usage
 
 ---
 
-**Step - 4**
+**Step - 4** </br>
   ☛ Select Free Spache </br>
             ↪️ Add GPT Partition
             
@@ -68,7 +68,7 @@ df -h              # View disk usage
 
 ---
 
-**Step - 5**
+**Step - 5** </br>
   ☛ Select Free Spache </br>
             ↪️ Format [leave-unformatted]
 
