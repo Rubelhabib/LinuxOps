@@ -36,8 +36,12 @@ df -h              # View disk usage
 
 ---
 **Step - 1**
+  ➡ Select Custom Storage Layout
 
 ![Image 1](Images/Coustome-sotorage1.png)
+
+---
+
 
 
 
