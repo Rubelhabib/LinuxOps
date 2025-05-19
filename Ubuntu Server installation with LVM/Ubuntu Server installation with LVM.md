@@ -49,7 +49,7 @@ df -h              # View disk usage
 
 ---
             
-**Step - 3**  
+**Step - 3**  </br>
   ☛ Select /boot </br>
               ↪️ Create
               
@@ -62,6 +62,7 @@ df -h              # View disk usage
             ↪️ Add GPT Partition
             
 ![Image 4](Images/4.png)
+
  ⬇️          
 ![Image 5](Images/5.png)
 
@@ -75,35 +76,35 @@ df -h              # View disk usage
 
 ---
             
-**Step - 6**
+**Step - 6**  </br>
     ☛ Create Encrypted Volume   
     
 ![Image 7](Images/Create-encrypted-volume7.png)
 
 ---
 
-**Step - 7**
+**Step - 7**  </br>
   ☛ Logical Volume Var
 
 ![Image 8](Images/logical-volume-var8.png) 
 
 ---
 
-**Step - 8**
+**Step - 8**  </br>
   ☛ Logical Volume Home
   
 ![Image 9](Images/home-10.png)
 
 ---
 
-**Step 9**
+**Step 9**  </br>
   ☛ Then Forward Slash
 
 ![Image 10](Images/forward-slash-10.png)  
 
 ---
 
-**OutPut**
+** ☛ OutPut**
 
   ![Output](Images/Output.png)
 
