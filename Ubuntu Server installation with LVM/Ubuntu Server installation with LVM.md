@@ -85,7 +85,7 @@ df -h              # View disk usage
 **Step - 7**
   ☛ Logical Volume Var
 
-![Image 8](logical-volume-var8.png) 
+![Image 8](Images/logical-volume-var8.png) 
 
 ---
 
