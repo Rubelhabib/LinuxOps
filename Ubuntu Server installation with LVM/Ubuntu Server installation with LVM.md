@@ -104,7 +104,7 @@ df -h              # View disk usage
 
 ---
 
-** ☛ OutPut**
+**OutPut**
 
   ![Output](Images/Output.png)
 
