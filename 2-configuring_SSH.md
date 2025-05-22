@@ -171,3 +171,21 @@ For any troubleshooting, check the logs:
 ```bash
 journalctl -xe | grep ssh
 ```
+
+**CODE**
+
+```
+sudo apt update
+sudo apt install ssh
+sudo systemctl status ssh.service
+sudo systemctl enable ssh.service
+
+sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config_backup
+ls -la /etc/ssh
+
+sudo vim /etc/ssh/sshd_config
+sudo systemctl restart ssh.service
+cat /etc/ssh/sshd_config
+
+ssh -p8080 rubel@192.168.10.93
+```
